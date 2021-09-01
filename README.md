@@ -1,4 +1,8 @@
 # N46-Forever
+ gamensenni
+
+
+ main
 ## サービス概要
 乃木坂４６の推しメンが卒業していくことによって応援するモチベーションが下がっている。
 
@@ -38,3 +42,9 @@
 
 ## 画面遷移図
 https://www.figma.com/file/kzmMbGsvKysOSn8zVsiIu3/N46?node-id=0%3A1
+ gamensenni
+
+
+## ER図
+https://app.diagrams.net/#Hiwaki-toshiyuki%2FN46-EXTERNAL%2F%25E3%2580%2580n46-external%2FUntitled%20Diagram.drawio
+ main

@@ -39,3 +39,6 @@
 
 ## 画面遷移図
 https://www.figma.com/file/kzmMbGsvKysOSn8zVsiIu3/N46?node-id=0%3A1
+
+## ER図
+https://app.diagrams.net/

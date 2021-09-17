@@ -1,0 +1,31 @@
+.top-wrapper {
+  background-color: #A71DE8;
+  height: calc(100vh - 134px);
+  position: relative;
+  background-position: center;
+
+  .text-center {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+
+    @media screen and (max-width: 767px) {
+      font-size: 2.0rem;
+    }
+  }
+
+  .col {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    font-size: 3rem;
+    }
+  }

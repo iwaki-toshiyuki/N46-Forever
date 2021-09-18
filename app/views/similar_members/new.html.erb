@@ -1,0 +1,11 @@
+<div class="top-wrapper">　
+  <div class="text-center">
+  　<h1>あなたの乃木坂46の好きなメンバーを入力してください。</h1>
+  　<%= form_with model: @member, local: true do |f| %>
+    　 <div class="form-group">
+        <%= f.label :member %>
+        <%= f.text_field :member, class: 'form-control'  %>
+      </div>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="top-wrapper">　
+  <div class="text-center">
+  　<h1>あなたの乃木坂46の好きな4期メンバーを入力してください。</h1>
+  　<%= form_with model: @member, local: true do |f| %>
+    　 <div class="form-group">
+        <%= f.label :名前： %>
+        <%= render 'similar_members/form4' %>
+      </div>
+      <%= link_to '診断結果', members_path, class: "btn btn-warning btn-lg" %>
+    <% end %>
+  </div>
+</div>

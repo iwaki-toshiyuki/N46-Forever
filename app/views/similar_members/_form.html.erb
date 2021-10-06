@@ -1,10 +1,4 @@
-<%= form_tag(similar_member_path, method: :get) do %>
-  <%= select_tag 'model', options_for_select({ "秋元真夏" => "user1", "生田絵梨花" => "user2","伊藤理々杏" => "user3",
-  "岩本蓮加" => "user4","梅澤美波" => "user5","遠藤さくら" => "user6","賀喜遥香" => "user7", "掛橋沙耶香" => "user8","金川沙耶" => "user9",
-  "北川悠理" => "user10", "北野日奈子" => "user11","久保史緒里" => "user12","黒見明香" => "user13","齋藤飛鳥" => "user14","阪口珠美" => "user15",
-  "佐藤楓" => "user16","佐藤璃果" => "user17","柴田柚菜" => "user18","新内眞衣" => "user19","鈴木絢音" => "user20","清宮レイ" => "user21",
-  "高山一実" => "user22","田村真佑" => "user23", "筒井あやめ" => "user24", "寺田蘭世" => "user25","中村麗乃" => "user26","早川聖来" => "user27",
-  "林瑠奈" => "user28","樋口日奈" => "user29","星野みなみ" => "user30", "松尾美佑" => "user31", "向井葉月" => "user32","矢久保美緒" => "user33",
-  "山崎怜奈" => "user34","山下美月" => "user35", "弓木奈於" => "user36","吉田綾乃クリスティー" => "user37",
-  "与田祐希" => "user38","和田まあや" => "user39"}) %>
+<%= form_tag(new_similar_member_path, method: :get) do %>
+  <%= select_tag 'model', options_for_select({ "秋元真夏" => "user1", "生田絵梨花" => "user2",
+  "齋藤飛鳥" => "user3","高山一実" => "user4","樋口日奈" => "user5","星野みなみ" => "user6", "和田まあや" => "user7"}) %>
 <% end %>

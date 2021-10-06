@@ -1,0 +1,4 @@
+<%= form_tag(new2_similar_member_path, method: :get) do %>
+  <%= select_tag 'model', options_for_select({  "北野日奈子" => "user1","新内眞衣" => "user2","鈴木絢音" => "user3",
+  "寺田蘭世" => "user4","山崎怜奈" => "user5"}) %>
+<% end %>

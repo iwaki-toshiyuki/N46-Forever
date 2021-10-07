@@ -1,9 +1,5 @@
 # N46-Forever
-N46-FOREVER
- N46-FOREVER
 
-
-  main
 ## サービス概要
 乃木坂４６の推しメンが卒業していくことによって応援するモチベーションが下がっている。
 
@@ -34,12 +30,10 @@ N46-FOREVER
 
 ## マーケット
 乃木坂４６に興味がある人
- N46-FOREVER
-
-
+ 
 ## 画面遷移図
 https://www.figma.com/file/kzmMbGsvKysOSn8zVsiIu3/N46?node-id=0%3A1
 
 ## ER図
 https://app.diagrams.net/#Hiwaki-toshiyuki%2FN46-EXTERNAL%2F%25E3%2580%2580n46-external%2FUntitled%20Diagram.drawio
- main
+ 

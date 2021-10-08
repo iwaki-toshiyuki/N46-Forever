@@ -35,5 +35,5 @@ Member.create(name:'山崎怜奈',profile:'1997-05-21',cute:'70',singing:'70',da
 Member.create(name:'山下美月',profile:'1999-07-26',cute:'90',singing:'90',dance:'85',variety:'90',acting: '95' )
 Member.create(name:'弓木奈於',profile:'1999-02-03',cute:'75',singing:'90',dance:'90',variety:'90',acting: '90' )
 Member.create(name:'吉田綾乃クリスティー',profile:'1995-09-06',cute:'70',singing:'70',dance:'70',variety:'60',acting:'85' )
-Member.create(name:'与田祐希',profile:'2000-05-05',cute:'90',singing:'90',dance:'80',variety:'95',acting:'90' )
+Member.create(name:'与田祐希',profile:'2000-05-05',cute:'90',singing:'90',dance:'85',variety:'95',acting:'90' )
 Member.create(name:'和田まあや',profile:'1998-04-23',cute:'65',singing:'60',dance:'90',variety:'100',acting: '65' )

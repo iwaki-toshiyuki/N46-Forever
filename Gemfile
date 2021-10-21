@@ -50,7 +50,6 @@ group :development do
   gem 'rubocop-performance', require: false
   gem 'rubocop-rails', require: false
   gem 'rubocop-rspec'
-
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -61,3 +60,4 @@ group :development, :test do
 end
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'chartkick'
+gem 'seed-fu'

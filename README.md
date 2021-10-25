@@ -1,24 +1,38 @@
-# README
+# N46-Forever
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## サービス概要
+乃木坂４６の推しメンが卒業していくことによって応援するモチベーションが下がっている。
 
-Things you may want to cover:
+そのような方々の為に新たな推しメンを探す手助けをするサービスです。
 
-* Ruby version
+## 登場人物
+### エンドユーザー
 
-* System dependencies
+乃木坂４６好きの人
 
-* Configuration
+## ユーザーが抱える課題
+・乃木坂４６で推しメンがどんどん卒業していく。
 
-* Database creation
+そのせいで応援する気持ちがどんどん下がっていく。
 
-* Database initialization
+次第には乃木坂４６を応援する気持ちがなくなっていく。
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## 解決方法
+・好きな乃木坂46メンバーを選択して、そこからレーダーチャートのようなもので結果を表示して
 
-* Deployment instructions
+そこからいくつかの推しメン候補を提示する。
 
-* ...
+・ユーザーの知らない乃木坂４６のメンバーを知るキッカケを作る。（ex新しく入った乃木坂メンバー)
+
+## プロダクト
+乃木坂４６を応援する気持ちを忘れさせないためのWebアプリケーション
+
+## マーケット
+乃木坂４６に興味がある人
+
+## 画面遷移図
+https://www.figma.com/file/kzmMbGsvKysOSn8zVsiIu3/N46?node-id=0%3A1
+
+## ER図
+https://app.diagrams.net/#Hiwaki-toshiyuki%2FN46-EXTERNAL%2F%25E3%2580%2580n46-external%2FUntitled%20Diagram.drawio

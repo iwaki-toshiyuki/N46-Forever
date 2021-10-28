@@ -1,5 +1,19 @@
-<%= form_tag(new4_similar_member_path, method: :get) do %>
-  <%= select_tag 'model', options_for_select({ "遠藤さくら" => "user1","賀喜遥香" => "user2", "掛橋沙耶香" => "user3","金川沙耶" => "user4",
-  "北川悠理" => "user5", "黒見明香" => "user6","佐藤璃果" => "user7","柴田柚菜" => "user8", "清宮レイ" => "user9","田村真佑" => "user10", "筒井あやめ" => "user11",
-  "早川聖来" => "user12","林瑠奈" => "user13", "松尾美佑" => "user14", "矢久保美緒" => "user15","弓木奈於" => "user16",}) %>
-<% end %>
+<%= link_to '遠藤さくら', endo_member_path, class: "btn btn-warning btn-lg" %>
+<%= link_to '賀喜遥香', kaki_member_path, class: "btn btn-warning btn-lg" %>
+<%= link_to '掛橋沙耶香', kakehashi_member_path, class: "btn btn-warning btn-lg" %>
+<%= link_to '金川沙耶', kanagawa_member_path, class: "btn btn-warning btn-lg" %>
+<br>
+<%= link_to '北川悠理', kitagawa_member_path, class: "btn btn-warning btn-lg" %>
+<%= link_to '黒見明香', kuromi_member_path, class: "btn btn-warning btn-lg" %>
+<%= link_to '佐藤璃果', satori_member_path, class: "btn btn-warning btn-lg" %>
+<%= link_to '柴田柚菜', sibata_member_path, class: "btn btn-warning btn-lg" %>
+<br>
+<%= link_to '清宮レイ', seimiya_member_path, class: "btn btn-warning btn-lg" %>
+<%= link_to '田村真佑', tamura_member_path, class: "btn btn-warning btn-lg" %>
+<%= link_to '筒井あやめ', tsutsui_member_path, class: "btn btn-warning btn-lg" %>
+<%= link_to '早川聖来', hayakawa_member_path, class: "btn btn-warning btn-lg" %>
+<br>
+<%= link_to '林瑠奈', hayashi_member_path, class: "btn btn-warning btn-lg" %>
+<%= link_to '松尾美佑', matsuo_member_path, class: "btn btn-warning btn-lg" %>
+<%= link_to '矢久保美緒', yakubo_member_path, class: "btn btn-warning btn-lg" %>
+<%= link_to '弓木奈於', yumiki_member_path, class: "btn btn-warning btn-lg" %>

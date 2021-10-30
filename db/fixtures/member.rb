@@ -80,7 +80,7 @@ Member.seed do |s|
 end
 Member.seed do |s|
   s.id = 9
-  s.name = "金川沙耶"
+  s.name = "金川紗耶"
   s.profile = '2001-10-31'
   s.cute = 75
   s.singing = 70

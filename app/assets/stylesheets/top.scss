@@ -1,9 +1,9 @@
 .top-wrapper {
-  background-color: #A71DE8;
+  background-color: white;
   height: calc(100vh - 134px);
   position: relative;
   background-position: center;
-  color: white;
+  color: #932993;
 
   .text-center {
     position: absolute;
@@ -13,7 +13,7 @@
     width: 100%;
     text-align: center;
     font-size: 3rem;
-    color: white;
+    color:#932993;
 
     @media screen and (max-width: 767px) {
       font-size: 2.0rem;
@@ -23,6 +23,16 @@
   .col {
     position: absolute;
     top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    font-size: 3rem;
+    }
+
+    .col1 {
+    position: absolute;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;

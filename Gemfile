@@ -29,6 +29,7 @@ gem 'active_storage_validations'
 gem 'traceroute'
 gem 'font-awesome-sass'
 gem 'jquery-rails'
+gem 'chart-js-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

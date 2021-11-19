@@ -1,12 +1,14 @@
 {
-  "name": "N46_Forever",
+  "name": "n46_forever",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
-    "@rails/webpacker": "4.3.0",
-    "chart.js": "^3.5.1",
+    "@rails/webpacker": "^3.6.0",
+    "chart.js": "^3.6.0",
+    "chartjs-plugin-datalabels": "^2.0.0",
+    "chartjs-plugin-labels": "^1.1.0",
     "chartkick": "^4.1.0",
     "highcharts": "^9.3.0",
     "turbolinks": "^5.2.0"
@@ -14,5 +16,23 @@
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^4.3.1"
-  }
+  },
+  "description": "## サービス概要 乃木坂４６の推しメンが卒業していくことによって応援するモチベーションが下がっている。",
+  "main": "babel.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwaki-toshiyuki/N46-Forever.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iwaki-toshiyuki/N46-Forever/issues"
+  },
+  "homepage": "https://github.com/iwaki-toshiyuki/N46-Forever#readme"
 }

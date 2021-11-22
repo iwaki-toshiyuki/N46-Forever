@@ -3,8 +3,51 @@
     <h2>樋口日奈推しのあなたにオススメする次の推しメンは<br><center><span style="font-size:60px;">早川聖来です！</span></center></h2>　
   </div>
   <div class="col1">
-  　<%= pie_chart @member.chart_date27%>
-  <h4>二人に共通するのは、actingの項目がパーフェクト!!<br>
+  <div class="chart-container" style="position: relative; height:40vh; width:50vw; left: 33vh;">
+    <canvas id="myPieChart"></canvas>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/emn178/chartjs-plugin-labels/src/chartjs-plugin-labels.js"></script>
+
+  <script>
+  var ctx = document.getElementById("myPieChart");
+  var myPieChart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: ["cute", "singing", "dance", "variety", "acting"],
+      datasets: [{
+          backgroundColor: [
+                "#FFDDFF",
+                "#FFFFCC",
+                "#CCFFFF",
+                "#FFDBC9",
+                "#9BF9CC"
+          ],
+          data: [30,40,30,40,90]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+      },
+      plugins: {
+        labels: [
+    {
+      render: 'label',
+      fontSize: 15,
+      position: 'outside'
+    },
+    {
+      render: 'percentage',
+      fontSize: 15
+    }
+  ]
+      }
+    }
+  });
+  </script>
+  <br>
+  <h4>二人に共通するのは、actingの項目が非常に高い!<br>
   その結果、演技力に定評のある早川聖来をあなたに紹介します。
   <br>他に吉田綾乃クリスティーや林瑠奈もあなたにオススメします。</h4>
   </div>

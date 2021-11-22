@@ -3,8 +3,51 @@
     <h2>松尾美佑推しのあなたにオススメする次の推しメンは<br><center><span style="font-size:60px;">鈴木絢音です!</span></center></h2>　
   </div>
   <div class="col1">
-  　<%= pie_chart @member.chart_date20%>
-  <h4>二人に共通するのは、danceの項目がパーフェクト!!<br>
+  <div class="chart-container" style="position: relative; height:40vh; width:50vw; left: 33vh;">
+    <canvas id="myPieChart"></canvas>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/emn178/chartjs-plugin-labels/src/chartjs-plugin-labels.js"></script>
+
+  <script>
+  var ctx = document.getElementById("myPieChart");
+  var myPieChart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: ["cute", "singing", "dance", "variety", "acting"],
+      datasets: [{
+          backgroundColor: [
+                "#FFDDFF",
+                "#FFFFCC",
+                "#CCFFFF",
+                "#FFDBC9",
+                "#9BF9CC"
+          ],
+          data: [30,30,100,30,40]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+      },
+      plugins: {
+        labels: [
+    {
+      render: 'label',
+      fontSize: 15,
+      position: 'outside'
+    },
+    {
+      render: 'percentage',
+      fontSize: 15
+    }
+  ]
+      }
+    }
+  });
+  </script>
+  <br>
+  <h4>二人に共通するのは、danceの項目がパーフェクト!<br>
   その結果、ダンスパフォーマンスに定評のある鈴木絢音をあなたに紹介します。
   <br>他に阪口珠美や金川紗耶もあなたにオススメします。</h4>
   </div>

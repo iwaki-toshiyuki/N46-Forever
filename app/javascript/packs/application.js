@@ -8,7 +8,7 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 require("chartkick").use(require("highcharts"))
-require("Chart.min")
+require("Chart.js")
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference

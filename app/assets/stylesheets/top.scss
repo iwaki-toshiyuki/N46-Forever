@@ -53,20 +53,10 @@
 
     .col3 {
     position: absolute;
-    top: 78%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    text-align: center;
-    font-size: 3rem;
-    }
-
-    .col4 {
-    position: absolute;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
+    width: 100%;
     text-align: center;
     font-size: 3rem;
     }
@@ -80,5 +70,15 @@
     text-align: center;
     font-size: 3rem;
     }
-  }
 
+    .row {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    font-size: 3rem;
+    }
+
+}

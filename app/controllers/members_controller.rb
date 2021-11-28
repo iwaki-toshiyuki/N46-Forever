@@ -158,7 +158,7 @@ class MembersController < ApplicationController
 private
 
   def member_params
-    params.require(:member).permit(:name, :cute, :singing, :dance, :variety, :acting)
+    params.permit(:member,:name, :cute, :singing, :dance, :variety, :acting,:youtube_url)
   end
 
 end

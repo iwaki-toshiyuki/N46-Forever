@@ -9,6 +9,8 @@ class Members < ActiveRecord::Migration[6.0]
       t.integer :dance
       t.integer :variety
       t.integer :acting
+      t.string  :member
+      t.text :youtube_url
 
       t.timestamps
     end

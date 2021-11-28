@@ -24,6 +24,8 @@ ActiveRecord::Schema.define(version: 2021_10_12_194131) do
     t.integer "dance"
     t.integer "variety"
     t.integer "acting"
+    t.string "member"
+    t.text "youtube_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

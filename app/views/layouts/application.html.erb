@@ -1,9 +1,18 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
     <title>N46Forever</title>
+    <meta name="description" content="乃木坂46の次の推しメンを紹介するサービス">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="N46Forever"/>
+    <meta property="og:description" content="乃木坂46の次の推しメンを紹介するサービス"/>
+    <meta property="og:image" content="top.png"/>
+    <meta property="og:url" content="https://n46forever1.herokuapp.com/"/>
+    <meta property="og:type" content="article"/>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Ws44olu6bygWDyB" />
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>

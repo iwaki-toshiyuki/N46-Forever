@@ -14,15 +14,15 @@ module ApplicationHelper
       canonical: request.original_url,
       noindex: !Rails.env.production?,
       icon: [
-        { href: image_url('top.png') },
-        { href: image_url('top.png'), rel: 'apple-touch-icon', sizes: '180x180', type: 'image/jpg' }
+        { href: image_url('https://i.gyazo.com/a40c921ac6611171de7010c97d51c8fd.png') },
+        { href: image_url('https://i.gyazo.com/a40c921ac6611171de7010c97d51c8fd.png'), rel: 'apple-touch-icon', sizes: '180x180', type: 'image/jpg' }
       ],
       og: {
         title: 'N46-Forever',
         description: '乃木坂46の次の推しメンを紹介するサービス',
         type: 'website',
         url: request.original_url,
-        image: image_url('top.png'),
+        image: image_url('https://i.gyazo.com/a40c921ac6611171de7010c97d51c8fd.png'),
         locale: 'ja_JP'
       },
       twitter: {

@@ -63,7 +63,7 @@
 
     .form-group {
       position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
@@ -87,6 +87,26 @@
     left: 25%;
     transform: translate(-50%, -50%);
     width: 75%;
+    text-align: center;
+    font-size: 3rem;
+    }
+
+    .containers {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    }
+
+    .profile {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 100%;
     text-align: center;
     font-size: 3rem;
     }

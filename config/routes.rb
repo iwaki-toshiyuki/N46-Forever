@@ -43,4 +43,5 @@ Rails.application.routes.draw do
   get 'yoda_member', to: 'members#yoda'
   get 'yoshida_member', to: 'members#yoshida'
   get 'yumiki_member', to: 'members#yumiki'
+  get 'akimoto_detail_member', to: 'detail_members#akimoto'
 end

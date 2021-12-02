@@ -4,6 +4,8 @@
   position: relative;
   background-position: center;
   color: #932993;
+  overflow-y: scroll;
+
 
   .text-center {
     position: absolute;
@@ -14,6 +16,7 @@
     text-align: center;
     font-size: 3rem;
     color:#932993;
+
 
     @media screen and (max-width: 767px) {
       font-size: 2.0rem;
@@ -63,7 +66,7 @@
 
     .form-group {
       position: absolute;
-    top: 60%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;

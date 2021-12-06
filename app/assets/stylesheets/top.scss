@@ -1,5 +1,5 @@
 .top-wrapper {
-  background-color: #EAD9FF	;
+  background-color:#EAD9FF;
   height: calc(100vh - 134px);
   position: relative;
   background-position: center;
@@ -113,5 +113,22 @@
     text-align: center;
     font-size: 3rem;
     }
+
+  .btn {
+    background: -moz-linear-gradient(65deg, #B384FF, #932993);
+    background: -webkit-linear-gradient(65deg, #B384FF, #932993);
+    background: linear-gradient(25deg, #B384FF, #932993);
+    color:  white;
+    border: #EAD9FF;
+    border-radius: 2px;
+}
+  .btn-dark {
+    background: -moz-linear-gradient(65deg, black, #932993);
+    background: -webkit-linear-gradient(65deg, black, #932993);
+    background: linear-gradient(25deg, black, #932993);
+    color:  white;
+    border: #EAD9FF;
+    border-radius: 2px;
+  }
 
 }

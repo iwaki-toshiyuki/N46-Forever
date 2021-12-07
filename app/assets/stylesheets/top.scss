@@ -26,7 +26,7 @@
 
   .col {
     position: absolute;
-    top: 60%;
+    top: 140%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
@@ -36,7 +36,7 @@
 
     .col1 {
     position: absolute;
-    top: 60%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
@@ -166,5 +166,22 @@
     border: #EAD9FF;
     border-radius: 2px;
   }
+  .sentence1 {position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    font-size: 3rem;
+    }
 
-}
+  .sentence2 {position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    font-size: 3rem;
+    }
+
+  }

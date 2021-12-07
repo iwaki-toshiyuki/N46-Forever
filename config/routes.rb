@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   resources :members
   root 'static_pages#top'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  get 'service_describe_path', to: 'describes#service'
+  get 'service_beginner_path', to: 'describes#beginner'
+
   get 'new_similar_member', to: 'similar_members#new'
 
   get 'akimoto_member', to: 'members#akimoto'

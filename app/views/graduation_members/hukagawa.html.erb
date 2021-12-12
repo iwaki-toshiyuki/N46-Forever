@@ -1,0 +1,68 @@
+<div class="top-wrapper">
+  <div class="d-flex align-items-center justify-content-center" style="height:150px;">
+    <h3>深川麻衣推しのあなたにオススメする次の推しメンは<br><center><span style="font-size:50px;">樋口日奈です！</span></center></h3>
+  </div>
+  <div class ="row justify-content-center">
+    <div class="col-sm-7 col-md-10 col-lg-7 ">
+      <div class="chart-container">
+        <canvas id="myPieChart"></canvas>
+      </div>
+    </div>
+  </div>
+  <script>
+  var ctx = document.getElementById("myPieChart");
+  var myPieChart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: ["cute", "singing", "dance", "variety", "acting"],
+      datasets: [{
+          backgroundColor: [
+                "#FFDDFF",
+                "#FFFFCC",
+                "#CCFFFF",
+                "#FFDBC9",
+                "#9BF9CC"
+          ],
+          data: [30,40,30,30,90]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+      },
+      plugins: {
+
+        labels: [
+    {
+      render: 'label',
+      fontSize: 20,
+      position: 'outside'
+    },
+    {
+      render: 'percentage',
+      fontSize: 15
+    }
+  ]
+      }
+    }
+  });
+  </script>
+  <div class="col3">
+  <br>
+  <h4>
+  <p>二人に共通するのは<br>actingの項目が非常に高い!<br>
+  その結果、演技力に定評のある樋口日奈を<br>あなたに紹介します。
+  <br>他に吉田綾乃クリスティーや黒見明香や<br>早川聖来や林瑠奈も<br>あなたにオススメします。</p>
+  <p>
+    <%= link_to '樋口日奈', higuchi_detail_member_path, class: "btn btn-danger " %>
+    <%= link_to '吉田綾乃クリスティー', yoshida_detail_member_path, class: "btn btn-info " %>
+    <%= link_to '黒見明香', kuromi_detail_member_path, class: "btn btn-warning " %>
+    <%= link_to '早川聖来', hayakawa_detail_member_path, class: "btn btn-warning " %>
+    <%= link_to '林瑠奈', hayashi_detail_member_path, class: "btn btn-warning " %>
+  </p>
+  <p><a href="https://twitter.com/share?url=https://n46forever1.herokuapp.com/hukagawa_graduation_member_path" class="twitter-share-button"
+  data-text="深川麻衣推しのあなたの次の推しメンは樋口日奈です！"data-size="large" data-hashtags="N46Forever" data-show-count="false"></a>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p></h4>
+  </div>
+  </div>
+</div>

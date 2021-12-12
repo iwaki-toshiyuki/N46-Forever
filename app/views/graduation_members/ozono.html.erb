@@ -1,0 +1,65 @@
+<div class="top-wrapper">
+  <div class="d-flex align-items-center justify-content-center" style="height:150px;">
+    <h3>大園桃子推しのあなたにオススメする次の推しメンは<br><center><span style="font-size:50px;">矢久保美緒です！</span></center></h3>　
+  </div>
+  <div class ="row justify-content-center">
+    <div class="col-sm-7 col-md-10 col-lg-7 ">
+      <div class="chart-container">
+        <canvas id="myPieChart"></canvas>
+      </div>
+    </div>
+  </div>
+  <script>
+  var ctx = document.getElementById("myPieChart");
+  var myPieChart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: ["cute", "singing", "dance", "variety", "acting"],
+      datasets: [{
+          backgroundColor: [
+                "#FFDDFF",
+                "#FFFFCC",
+                "#CCFFFF",
+                "#FFDBC9",
+                "#9BF9CC"
+          ],
+          data: [90,30,40,90,30]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+      },
+      plugins: {
+        labels: [
+    {
+      render: 'label',
+      fontSize: 20,
+      position: 'outside'
+    },
+    {
+      render: 'percentage',
+      fontSize: 15
+    }
+  ]
+      }
+    }
+  });
+  </script>
+  <div class="col3">
+  <p>
+  <h4>
+  <br>二人に共通するのは<br>cuteとvarietyの二つの項目が非常に高い！
+  <br>その結果、天真爛漫で親しみ感のある<br>矢久保美緒をあなたに紹介します。
+  <br>他に北野日奈子や向井葉月や清宮レイも<br>あなたにオススメします。</p>
+  <p>
+      <%= link_to '北野日奈子', kitano_detail_member_path, class: "btn btn-success " %>
+      <%= link_to '向井葉月', mukai_detail_member_path, class: "btn btn-info " %>
+      <%= link_to '清宮レイ', seimiya_detail_member_path, class: "btn btn-warning " %>
+      <%= link_to '矢久保美緒', yakubo_detail_member_path, class: "btn btn-warning " %></p>
+  <p><a href="https://twitter.com/share?url=https://n46forever1.herokuapp.com/ozono_graduation_member_path" class="twitter-share-button"
+  data-text="大園桃子しのあなたの次の推しメンは矢久保美緒です！" data-size="large" data-hashtags="N46Forever"data-show-count="false"></a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p></h4>
+  </div>
+  </div>
+</div>

@@ -1,0 +1,65 @@
+<div class="top-wrapper">
+  <div class="d-flex align-items-center justify-content-center" style="height:150px;">
+    <h3>伊藤万理華推しのあなたにオススメする次の推しメンは<br><center><span style="font-size:50px;">山崎怜奈です!</span></center></h3>　
+  </div>
+  <div class ="row justify-content-center">
+    <div class="col-sm-7 col-md-10 col-lg-7 ">
+      <div class="chart-container">
+        <canvas id="myPieChart"></canvas>
+      </div>
+    </div>
+  </div>
+  <script>
+  var ctx = document.getElementById("myPieChart");
+  var myPieChart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: ["cute", "singing", "dance", "variety", "acting"],
+      datasets: [{
+          backgroundColor: [
+                "#FFDDFF",
+                "#FFFFCC",
+                "#CCFFFF",
+                "#FFDBC9",
+                "#9BF9CC"
+          ],
+          data: [30,90,90,90,30]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+      },
+      plugins: {
+        labels: [
+    {
+      render: 'label',
+      fontSize: 20,
+      position: 'outside'
+    },
+    {
+      render: 'percentage',
+      fontSize: 15
+    }
+  ]
+      }
+    }
+  });
+  </script>
+  <div class='col3'>
+  <p>
+  <h4>
+  <br>二人に共通するのは<br>singingとdanceとvarietyの<br>三つの項目が非常に高い！
+  <br>その結果、オールマイティーに大活躍している<br>山崎怜奈をあなたに紹介します。
+  <br>他に新内眞衣や梅澤美波や田村真佑も<br>あなたにオススメします。</p>
+  <p>
+      <%= link_to '新内眞衣', sinuchi_detail_member_path, class: "btn btn-success " %>
+      <%= link_to '山崎怜奈', yamazaki_detail_member_path, class: "btn btn-success " %>
+      <%= link_to '梅澤美波', umezawa_detail_member_path, class: "btn btn-info " %>
+      <%= link_to '田村真佑', tamura_detail_member_path, class: "btn btn-warning " %></p>
+  <p><a href="https://twitter.com/share?url=https://n46forever1.herokuapp.com/itoma_graduation_member_path" class="twitter-share-button"
+  data-text="伊藤万理華推しのあなたの次の推しメンは山崎怜奈です！" data-size="large" data-hashtags="N46Forever" data-show-count="false"></a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p></h4>
+  </div>
+  </div>
+</div>

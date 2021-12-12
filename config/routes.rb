@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'service_beginner_path', to: 'describes#beginner'
 
   get 'new_similar_member', to: 'similar_members#new'
+  get 'new2_similar_member_path', to: 'similar_members#new2'
 
   get 'akimoto_member', to: 'members#akimoto'
   get 'endo_member', to: 'members#endo'
@@ -87,4 +88,5 @@ Rails.application.routes.draw do
   get 'yoda_detail_member', to: 'detail_members#yoda'
   get 'yoshida_detail_member', to: 'detail_members#yoshida'
   get 'yumiki_detail_member', to: 'detail_members#yumiki'
+
 end

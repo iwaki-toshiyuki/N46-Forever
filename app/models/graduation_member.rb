@@ -1,0 +1,2 @@
+class GraduationMember < ApplicationRecord
+end

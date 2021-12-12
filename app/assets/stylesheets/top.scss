@@ -166,6 +166,16 @@
     border: #EAD9FF;
     border-radius: 2px;
   }
+
+  .btn-light {
+    background: -moz-linear-gradient(65deg, #FF88FF, #932993);
+    background: -webkit-linear-gradient(65deg, #FF88FF, #932993);
+    background: linear-gradient(25deg, #FF88FF, #932993);
+    color:  white;
+    border: #EAD9FF;
+    border-radius: 2px;
+  }
+
   .sentence1 {position: absolute;
     top: 50%;
     left: 50%;

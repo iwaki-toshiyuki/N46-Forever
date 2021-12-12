@@ -1,0 +1,13 @@
+<div class="top-wrapper">　
+  <div class="col2">
+    <h2>乃木坂46で、あなたの好きな卒業メンバーを選択してください。</h2>
+  </div>
+    <%= form_with model: @member, local: true do |f| %>
+      <div class ="form-group">
+        <div class="col">
+          <%= render 'similar_members/form2' %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

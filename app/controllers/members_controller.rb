@@ -107,15 +107,7 @@ class MembersController < ApplicationController
     @member = Member.all
   end
 
-  def takayama
-    @member = Member.all
-  end
-
   def tamura
-    @member = Member.all
-  end
-
-  def terada
     @member = Member.all
   end
 

@@ -89,4 +89,8 @@ Rails.application.routes.draw do
   get 'yoshida_detail_member', to: 'detail_members#yoshida'
   get 'yumiki_detail_member', to: 'detail_members#yumiki'
 
+  get 'etou_graduation_member_path', to: 'graduation_members#etou'
+
+
+
 end

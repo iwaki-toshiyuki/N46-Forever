@@ -1,0 +1,65 @@
+<div class="top-wrapper">
+  <div class="d-flex align-items-center justify-content-center" style="height:150px;">
+    <h3>市來玲奈推しのあなたにオススメする次の推しメンは<br><center><span style="font-size:50px;">松尾美佑です!</span></center></h3>　
+  </div>
+  <div class ="row justify-content-center">
+    <div class="col-sm-7 col-md-10 col-lg-7 ">
+      <div class="chart-container">
+        <canvas id="myPieChart"></canvas>
+      </div>
+    </div>
+  </div>
+  <script>
+  var ctx = document.getElementById("myPieChart");
+  var myPieChart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: ["cute", "singing", "dance", "variety", "acting"],
+      datasets: [{
+          backgroundColor: [
+                "#FFDDFF",
+                "#FFFFCC",
+                "#CCFFFF",
+                "#FFDBC9",
+                "#9BF9CC"
+          ],
+          data: [30,30,100,40,30]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+      },
+      plugins: {
+        labels: [
+    {
+      render: 'label',
+      fontSize: 20,
+      position: 'outside'
+    },
+    {
+      render: 'percentage',
+      fontSize: 15
+    }
+  ]
+      }
+    }
+  });
+  </script>
+  <div class='col3'>
+  <p>
+  <h4>
+  <br>二人に共通するのは<br>danceの項目が非常に高い!<br>
+  その結果、ダンスパフォーマンスに定評のある<br>松尾美佑をあなたに紹介します。
+  <br>他に鈴木絢音や阪口珠美や金川紗耶も<br>あなたにオススメします。</p>
+  <p>
+      <%= link_to '鈴木絢音', suzuki_detail_member_path, class: "btn btn-success " %>
+      <%= link_to '阪口珠美', sakaguchi_detail_member_path, class: "btn btn-info " %>
+      <%= link_to '金川紗耶', kanagawa_detail_member_path, class: "btn btn-warning " %>
+      <%= link_to '松尾美佑', matsuo_detail_member_path, class: "btn btn-warning " %></p>
+  <p><a href="https://twitter.com/share?url=https://n46forever1.herokuapp.com/itiki_graduation_member_path" class="twitter-share-button"
+    data-text="市來玲奈推しのあなたの次の推しメンは松尾美佑です！" data-size="large" data-hashtags="N46Forever"data-show-count="false"></a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p></h4>
+  </div>
+  </div>
+</div>

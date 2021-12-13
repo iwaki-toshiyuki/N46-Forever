@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   resources :members
   root 'static_pages#top'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  get 'top_static_page', to: 'static_pages#top'
+
   get 'service_describe_path', to: 'describes#service'
   get 'service_beginner_path', to: 'describes#beginner'
   get 'service_term_path', to: 'describes#term'

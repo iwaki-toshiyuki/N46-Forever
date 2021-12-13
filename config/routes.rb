@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   get 'service_describe_path', to: 'describes#service'
   get 'service_beginner_path', to: 'describes#beginner'
+  get 'service_term_path', to: 'describes#term'
+  get 'service_privacy_path', to: 'describes#privacy'
+  get 'service_question_path', to: 'describes#question'
 
   get 'new_similar_member', to: 'similar_members#new'
   get 'new2_similar_member_path', to: 'similar_members#new2'

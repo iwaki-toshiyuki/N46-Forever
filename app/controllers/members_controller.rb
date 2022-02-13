@@ -19,10 +19,6 @@ class MembersController < ApplicationController
     @member = Member.all
   end
 
-  def hoshino
-    @member = Member.all
-  end
-
   def ikuta
     @member = Member.all
   end
@@ -96,10 +92,6 @@ class MembersController < ApplicationController
   end
 
   def sibata
-    @member = Member.all
-  end
-
-  def sinuchi
     @member = Member.all
   end
 

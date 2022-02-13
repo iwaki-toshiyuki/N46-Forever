@@ -7,6 +7,10 @@ class GraduationMembersController < ApplicationController
     @graduation_member = Member.all
   end
 
+  def hoshino
+    @graduation_member = Member.all
+  end
+
   def hori
     @graduation_member = Member.all
   end
@@ -100,6 +104,10 @@ class GraduationMembersController < ApplicationController
   end
 
   def shiraishi
+    @graduation_member = Member.all
+  end
+
+  def shinuchi
     @graduation_member = Member.all
   end
 

@@ -99,6 +99,7 @@ Rails.application.routes.draw do
   get 'itoma_graduation_member_path', to: 'graduation_members#itoma'
   get 'kawago_graduation_member_path', to: 'graduation_members#kawago'
   get 'kawamura_graduation_member_path', to: 'graduation_members#kawamura'
+  get 'matsui_graduation_member_path', to: 'graduation_members#matsui'
   get 'matsumura_graduation_member_path', to: 'graduation_members#matsumura'
   get 'nagashima_graduation_member_path', to: 'graduation_members#nagashima'
   get 'nakada_graduation_member_path', to: 'graduation_members#nakada'

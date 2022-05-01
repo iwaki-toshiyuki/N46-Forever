@@ -47,10 +47,6 @@ class MembersController < ApplicationController
     @member = Member.all
   end
 
-  def kitano
-    @member = Member.all
-  end
-
   def kubo
     @member = Member.all
   end

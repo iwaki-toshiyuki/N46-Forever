@@ -55,6 +55,10 @@ class GraduationMembersController < ApplicationController
     @graduation_member = Member.all
   end
 
+  def kitano
+    @graduation_member = Member.all
+  end
+
   def matsui
     @graduation_member = Member.all
   end

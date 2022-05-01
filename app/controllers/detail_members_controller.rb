@@ -51,10 +51,6 @@ class DetailMembersController < ApplicationController
     @detail_member = Member.all
   end
 
-  def kitano
-    @detail_member = Member.all
-  end
-
   def kubo
     @detail_member = Member.all
   end

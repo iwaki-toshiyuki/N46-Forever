@@ -1,5 +1,5 @@
 class Member < ApplicationRecord
-  belongs_to:similar_member, optional: true
+  belongs_to :similar_member, optional: true
   def self.chart_date1
     Member.select('cute,singing,dance,variety,acting').find(1)
   end
@@ -155,5 +155,4 @@ class Member < ApplicationRecord
   def self.chart_date39
     Member.select('cute,singing,dance,variety,acting').find(39)
   end
-
 end

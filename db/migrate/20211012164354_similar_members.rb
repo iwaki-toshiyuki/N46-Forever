@@ -3,6 +3,5 @@ class SimilarMembers < ActiveRecord::Migration[6.0]
     create_table :similar_members do |t|
       t.text :body
     end
-
   end
 end

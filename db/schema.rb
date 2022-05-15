@@ -10,53 +10,51 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_12_12_064927) do
-
+ActiveRecord::Schema.define(version: 20_211_212_064_927) do
   # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
+  enable_extension 'plpgsql'
 
-  create_table "detail_members", force: :cascade do |t|
-    t.text "body"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+  create_table 'detail_members', force: :cascade do |t|
+    t.text 'body'
+    t.datetime 'created_at', precision: 6, null: false
+    t.datetime 'updated_at', precision: 6, null: false
   end
 
-  create_table "graduation_members", force: :cascade do |t|
-    t.string "name"
-    t.string "profile"
-    t.integer "cute"
-    t.integer "singing"
-    t.integer "dance"
-    t.integer "variety"
-    t.integer "acting"
-    t.string "graduation_member"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+  create_table 'graduation_members', force: :cascade do |t|
+    t.string 'name'
+    t.string 'profile'
+    t.integer 'cute'
+    t.integer 'singing'
+    t.integer 'dance'
+    t.integer 'variety'
+    t.integer 'acting'
+    t.string 'graduation_member'
+    t.datetime 'created_at', precision: 6, null: false
+    t.datetime 'updated_at', precision: 6, null: false
   end
 
-  create_table "members", force: :cascade do |t|
-    t.integer "similar_id"
-    t.string "name"
-    t.string "profile"
-    t.integer "cute"
-    t.integer "singing"
-    t.integer "dance"
-    t.integer "variety"
-    t.integer "acting"
-    t.string "member"
-    t.text "youtube_url"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+  create_table 'members', force: :cascade do |t|
+    t.integer 'similar_id'
+    t.string 'name'
+    t.string 'profile'
+    t.integer 'cute'
+    t.integer 'singing'
+    t.integer 'dance'
+    t.integer 'variety'
+    t.integer 'acting'
+    t.string 'member'
+    t.text 'youtube_url'
+    t.datetime 'created_at', precision: 6, null: false
+    t.datetime 'updated_at', precision: 6, null: false
   end
 
-  create_table "similar_members", force: :cascade do |t|
-    t.text "body"
+  create_table 'similar_members', force: :cascade do |t|
+    t.text 'body'
   end
 
-  create_table "static_pages", force: :cascade do |t|
-    t.text "body"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+  create_table 'static_pages', force: :cascade do |t|
+    t.text 'body'
+    t.datetime 'created_at', precision: 6, null: false
+    t.datetime 'updated_at', precision: 6, null: false
   end
-
 end

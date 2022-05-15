@@ -140,5 +140,4 @@ class GraduationMembersController < ApplicationController
   def graduation_member_params
     params.permit(:name, :cute, :singing, :dance, :variety, :acting)
   end
-
 end

@@ -1,6 +1,6 @@
 class Members < ActiveRecord::Migration[6.0]
-    def change
-      create_table :members do |t|
+  def change
+    create_table :members do |t|
       t.integer :similar_id
       t.string :name
       t.string :profile
@@ -14,7 +14,5 @@ class Members < ActiveRecord::Migration[6.0]
 
       t.timestamps
     end
-
-
   end
 end

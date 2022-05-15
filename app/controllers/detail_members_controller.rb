@@ -142,5 +142,4 @@ class DetailMembersController < ApplicationController
   def yumiki
     @detail_member = Member.all
   end
-
 end

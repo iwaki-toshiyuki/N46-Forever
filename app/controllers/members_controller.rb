@@ -135,10 +135,9 @@ class MembersController < ApplicationController
     @member = Member.all
   end
 
-private
+  private
 
   def member_params
-    params.permit(:member,:name, :cute, :singing, :dance, :variety, :acting,:youtube_url)
+    params.permit(:member, :name, :cute, :singing, :dance, :variety, :acting, :youtube_url)
   end
-
 end

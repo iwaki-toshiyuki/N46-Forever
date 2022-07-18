@@ -127,10 +127,6 @@ class DetailMembersController < ApplicationController
     @detail_member = Member.all
   end
 
-  def yamazaki
-    @detail_member = Member.all
-  end
-
   def yoda
     @detail_member = Member.all
   end

@@ -43,7 +43,6 @@ Rails.application.routes.draw do
   get 'wada_member', to: 'members#wada'
   get 'yakubo_member', to: 'members#yakubo'
   get 'yamashita_member', to: 'members#yamashita'
-  get 'yamazaki_member', to: 'members#yamazaki'
   get 'yoda_member', to: 'members#yoda'
   get 'yoshida_member', to: 'members#yoshida'
   get 'yumiki_member', to: 'members#yumiki'
@@ -78,7 +77,6 @@ Rails.application.routes.draw do
   get 'wada_detail_member', to: 'detail_members#wada'
   get 'yakubo_detail_member', to: 'detail_members#yakubo'
   get 'yamashita_detail_member', to: 'detail_members#yamashita'
-  get 'yamazaki_detail_member', to: 'detail_members#yamazaki'
   get 'yoda_detail_member', to: 'detail_members#yoda'
   get 'yoshida_detail_member', to: 'detail_members#yoshida'
   get 'yumiki_detail_member', to: 'detail_members#yumiki'
@@ -115,6 +113,7 @@ Rails.application.routes.draw do
   get 'shiraishi_graduation_member_path', to: 'graduation_members#shiraishi'
   get 'takayama_graduation_member_path', to: 'graduation_members#takayama'
   get 'terada_graduation_member_path', to: 'graduation_members#terada'
+  get 'yamazaki_graduation_member_path', to: 'graduation_members#yamazaki'
   get 'wakatsuki_graduation_member_path', to: 'graduation_members#wakatsuki'
   get 'watanabe_graduation_member_path', to: 'graduation_members#watanabe'
 end

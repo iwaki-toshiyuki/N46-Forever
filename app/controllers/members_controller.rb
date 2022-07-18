@@ -119,10 +119,6 @@ class MembersController < ApplicationController
     @member = Member.all
   end
 
-  def yamazaki
-    @member = Member.all
-  end
-
   def yoda
     @member = Member.all
   end

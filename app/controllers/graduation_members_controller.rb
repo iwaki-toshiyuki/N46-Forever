@@ -135,6 +135,10 @@ class GraduationMembersController < ApplicationController
     @graduation_member = Member.all
   end
 
+  def yamazaki
+    @graduation_member = Member.all
+  end
+
   private
 
   def graduation_member_params

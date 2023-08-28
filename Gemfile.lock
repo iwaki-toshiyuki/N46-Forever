@@ -84,6 +84,8 @@ GEM
     crass (1.0.6)
     debug_inspector (1.1.0)
     docile (1.4.0)
+    dockerfile-rails (1.5.3)
+      rails
     erubi (1.10.0)
     execjs (2.8.1)
     ffi (1.15.4)
@@ -199,6 +201,11 @@ GEM
     seed-fu (2.3.9)
       activerecord (>= 3.1)
       activesupport (>= 3.1)
+    sentry-rails (5.10.0)
+      railties (>= 5.0)
+      sentry-ruby (~> 5.10.0)
+    sentry-ruby (5.10.0)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
     simplecov (0.21.2)
       docile (~> 1.1)
       simplecov-html (~> 0.11)
@@ -257,6 +264,7 @@ DEPENDENCIES
   byebug
   chart-js-rails
   chartkick
+  dockerfile-rails (>= 1.5)
   font-awesome-sass
   jbuilder (~> 2.7)
   jquery-rails
@@ -271,6 +279,8 @@ DEPENDENCIES
   rubocop-rspec
   sass-rails (>= 6)
   seed-fu
+  sentry-rails (~> 5.10)
+  sentry-ruby (~> 5.10)
   simplecov
   spring
   spring-commands-rspec

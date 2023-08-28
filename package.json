@@ -35,5 +35,6 @@
   "bugs": {
     "url": "https://github.com/iwaki-toshiyuki/N46-Forever/issues"
   },
-  "homepage": "https://github.com/iwaki-toshiyuki/N46-Forever#readme"
+  "homepage": "https://github.com/iwaki-toshiyuki/N46-Forever#readme",
+  "packageManager": "yarn@1.22.10"
 }

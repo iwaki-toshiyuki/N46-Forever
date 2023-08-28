@@ -62,3 +62,9 @@ end
 gem 'chartkick'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'seed-fu'
+
+gem "dockerfile-rails", ">= 1.5", :group => :development
+
+gem "sentry-ruby", "~> 5.10"
+
+gem "sentry-rails", "~> 5.10"
